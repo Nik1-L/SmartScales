@@ -1,4 +1,5 @@
 # SmartScales
 ## Аннотация
 Суть проекта заключается в распознавании фруктов и овощей, а также их массы на весах.На основании этих данных выводится сумма покупки. Пример работы продемонстрирован ниже.
-<img src="https://github.com/Nik1-L/SmartScales/blob/main/Gif2.gif" width="250" height="250" />
+
+<img src="https://github.com/Nik1-L/SmartScales/blob/main/Gif2.gif" width="750" height="750" />
