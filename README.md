@@ -9,6 +9,6 @@
 ## Обучение модели
 Для распознавания продуктов на весах мы использовали нейросеть YOLOv4, которую обучили на наших классах овощей и фруктов. Выбор нейросети YOLOv4 был обусловлен тем, что на датасете Microsoft COCO данная нейросеть показала самый точный результата по метрике AP50. При обучении модели использовался фреймворк Darknet https://github.com/AlexeyAB/darknet. Обучение происходило в Google Colaboratory с помощью видеокарты Tesla K80. Обучение заняло в общей сложности 57 часов и результат оценки модели с помощью метрики mAP составляет 70%.  
 ## Авторы
-https://github.com/Nik1-L
-https://github.com/arinashkanova
-https://github.com/vladimirtugutov
+https://github.com/Nik1-L  
+https://github.com/arinashkanova  
+https://github.com/vladimirtugutov  
