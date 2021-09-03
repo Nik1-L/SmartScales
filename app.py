@@ -1,8 +1,8 @@
 from flask import Flask, Response, render_template, request
 import random
-from webcam import *
-from model import *
-from VAR import *
+from utils.webcam import *
+from utils.model import *
+from utils.var import *
 from yolov4 import Detector
 app = Flask(__name__)
 
