@@ -1,5 +1,5 @@
 import numpy as np
-from VAR import *
+from var import *
 from PIL import Image
 from collections import Counter
 from tesser import tesser_predict
