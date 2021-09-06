@@ -23,9 +23,7 @@ def tesser_predict(PATH)-> str:
     # если в контуре имеется 4 вершины, то находим экран
     if len(approx) == 4:
       displayCnt = approx
-      break
-      
-      
+      break    
   warped = four_point_transform(gray, displayCnt.reshape(4, 2))
   custom_config = r'--oem 3 --psm 6 outputbase digits'
   point = pytesseract.image_to_string(warped, config=custom_config)
